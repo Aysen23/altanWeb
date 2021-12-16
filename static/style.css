@@ -77,12 +77,12 @@ div {
 /* Скомбинированный селектор потомков */
 .navbar a {
     text-decoration: none;
-    color: rgb(56, 63, 124);
+    color: rgb(58, 73, 212);
     font-size: x-large;
 }
 /* псевдокласс наведения курсора */
 .navbar a:hover {
-    color: rgb(136, 36, 50);
+    color: rgb(230, 14, 24);
     font-size: xx-large;
 }
 
