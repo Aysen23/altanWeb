@@ -1,3 +1,6 @@
+/* импортирование шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap');
+
 /* универсальный селектор */
 * {
     /* внешний отступ */
@@ -19,6 +22,7 @@ div {
 .wrapper {
     border: none;
     height: 100%;
+    font-family: 'Ubuntu', Arial, sans-serif;
 }
 
 /* селектор по идентификатору */
@@ -54,12 +58,43 @@ div {
 
 .header {
     grid-area: h;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
+.navbar {
+    /* grid-area: n; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: center;
+}
+/* Скомбинированный селектор дочерних элементов */
+.navbar>li {
+    /* border: solid 2px orange; */
+}
+
+/* Скомбинированный селектор потомков */
+.navbar a {
+    text-decoration: none;
+    color: rgb(56, 63, 124);
+    font-size: x-large;
+}
+/* псевдокласс наведения курсора */
+.navbar a:hover {
+    color: rgb(136, 36, 50);
+    font-size: xx-large;
+}
+
 .sidebar_1 {
     grid-area: s1;
 }
 .main {
     grid-area: m;
+    height: 100%;
+}
+.content {
+    height: 100%;
 }
 .sidebar_2 {
     grid-area: s2;

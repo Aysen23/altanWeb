@@ -10,19 +10,29 @@
 <body>
     <div class="wrapper">
         <header class="header">
-            header
+            <div class="logo">
+                Logo
+            </div>
+            <ul class="navbar">
+                <li><a href="/">Home</a></li>
+                <li><a href="/product">Product</a></li>
+                <li><a href=""></a>Contact</li>
+            </ul>
         </header>
         <div class="sidebar_1">
             sidebar 1
         </div>
         <div class="main">
-            main
+            <!-- main
             <div id="c1" class="content">
                 Content 1
             </div>
             <div id="c2" class="content">
                 Content 2
-            </div>
+            </div> -->
+
+            {% block main %}
+            {% endblock %}
         </div>
         <div class="sidebar_2">
             sidebar 2
