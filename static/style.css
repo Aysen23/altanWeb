@@ -135,6 +135,7 @@ header, footer {
 .content h1{
     grid-row: 2 / 3;
 }
+
 .content form {
     border: solid 2px green;
     border-radius: 10%;
@@ -154,6 +155,14 @@ header, footer {
 }
 .message {
     grid-row: 4 / 5;
+}
+
+.contact-content h1{
+    grid-row: 1 / 2;
+}
+
+.contact-content .block_1 {
+    grid-row: 2 / 3;
 }
 
 .footer {
