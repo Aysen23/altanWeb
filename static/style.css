@@ -85,7 +85,6 @@ header, footer {
     flex-direction: row;
     /* justify-content: space-evenly; */
     justify-content: end;
-    list-style-type: none;
     align-items: center;
     list-style-type: none;
 }
@@ -160,7 +159,6 @@ header, footer {
 .contact-content h1{
     grid-row: 1 / 2;
 }
-
 .contact-content .block_1 {
     grid-row: 2 / 3;
 }

@@ -3,7 +3,7 @@ from pwdGenerator import hashing
 
 app = Flask(__name__)
 
-# print(__name__)
+print(__name__)
 
 @app.route("/")
 def index_page():
