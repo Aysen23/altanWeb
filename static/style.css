@@ -163,6 +163,15 @@ header, footer {
     grid-row: 2 / 3;
 }
 
+.content table {
+    border: 2px solid rgb(136, 51, 51);
+}
+
+.content th, td{
+    padding: 20px;
+    border: 5px dotted rgb(136, 51, 51);
+}
+
 .footer {
     display: grid;
     grid-area: f;
