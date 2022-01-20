@@ -55,4 +55,4 @@ def test_page():
 # точка входа
 if __name__ == "__main__":
     db.create_db(DB_PATH)
-    app.run(debug=True)
+    app.run(debug=False)

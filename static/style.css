@@ -158,8 +158,18 @@ header, footer {
     grid-row: 1 / 2;
 }
 .contact-content .block_1 {
-    grid-row: 2 / 3;
+    grid-row: 3 / 3 ;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
 }
+
 
 .content table {
     border: 5px solid rgb(136, 51, 51);
